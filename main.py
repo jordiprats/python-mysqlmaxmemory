@@ -56,6 +56,7 @@ try:
     qcs = int(s_qcs.groups()[0])
 
 except Exception as e:
+  # Removed in MySQL 8.0.3
   qcs = 0
 
 try:
